@@ -1,0 +1,91 @@
+body{
+    background-color: #FFF8DC;
+    height: 99%;
+    width: 99%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace, Courier, Mono;
+}
+
+.Latvija{
+
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+    
+.Virsraksts{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+ 
+ 
+.Fotografijas{
+   
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+/* Kaut kāda iemesla dēļ 2 no bildēm nepakļāvās nosacījumiem */
+.FOTO{
+    
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+
+/* Bildēm netiek noapaļoti stūri, bet nesaprotu iemeslu iemeslu*/
+.SAKUMS{
+    margin-left: 20px;
+    font-size: 150%;
+}
+.DZIESMA{
+    margin-left: 20px;
+    
+
+}
+.teksts{
+    width: 560px;
+    height: auto;
+    float: left;
+    
+
+}
+.video{
+    
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    right:20px ;
+    float: right 25px;
+    display: flex;
+}
+
+iframe {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  .AUTORS{
+    position: absolute;
+    right: 20px;
+   bottom: 0px;
+  }
+  .media{
+    -webkit-box-shadow: 10px 10px 61px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 61px 6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 61px 6px rgba(0,0,0,0.75);
+  }
+  
+  .Fotografijas img {
+    border-radius: 10px;
+    display: inline-block;
+    width: 150px;
+  }
+  
